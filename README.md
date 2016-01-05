@@ -5,10 +5,9 @@ The screen can be set to auto refresh at a selcted interval or can updated manua
 
 A functioning demo can be found at: http://focusbidashboard.azurewebsites.net/
 
-<p>Default view<p>
-![dashboard1](https://cloud.githubusercontent.com/assets/15170287/12120517/11dcd2e4-b3c9-11e5-9e8f-4921aef46229.png)
-<hr>
-<p>Drilldown</p>
-![dashboard2](https://cloud.githubusercontent.com/assets/15170287/12120691/babf5602-b3c9-11e5-9706-003ba1a9d83a.png)
+<p>Collapsed</p>
+![dashboard1](https://cloud.githubusercontent.com/assets/15170287/12120517/11dcd2e4-b3c9-11e5-9e8f-4921aef46229.png) 
 
+<p>Drill down for more</p>
+![dashboard2](https://cloud.githubusercontent.com/assets/15170287/12120691/babf5602-b3c9-11e5-9706-003ba1a9d83a.png)
 
