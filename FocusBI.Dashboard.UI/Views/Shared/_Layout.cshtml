@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>SSIS Server Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="version" content="@typeof(FoucsBI.Dashboard.UI.WebApiConfig).Assembly.GetName().Version" />
+    @Styles.Render("~/content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryBlockUI")
+    @Scripts.Render("~/bundles/dataTable")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/application") 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-1 app-title">
+                <div class="row">
+                    <div class="col-xs-9">
+                        <h1>SSIS Dashboard</h1>
+                    </div>
+                    <div class="col-xs-3 ">
+                        <h5>Version:@typeof(FoucsBI.Dashboard.UI.WebApiConfig).Assembly.GetName().Version</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <img src='@Url.Content("~/Content/Images/CompanyLogo.png")' style="max-width: 100pt" title="Company Logo" alt="Company Logo" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mainContainer">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

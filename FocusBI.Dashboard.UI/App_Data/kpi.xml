@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKPI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KPI>
+    <ExecutionStatus>all</ExecutionStatus>
+    <RowCount>23</RowCount>
+  </KPI>
+  <KPI>
+    <ExecutionStatus>cancelled</ExecutionStatus>
+    <RowCount>2</RowCount>
+  </KPI>
+  <KPI>
+    <ExecutionStatus>failed</ExecutionStatus>
+    <RowCount>4</RowCount>
+  </KPI>
+  <KPI>
+    <ExecutionStatus>succeeded</ExecutionStatus>
+    <RowCount>17</RowCount>
+  </KPI>
+</ArrayOfKPI>

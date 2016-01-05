@@ -1,0 +1,3614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message>
+    <Id>176</Id>
+    <ExecutionId>3</ExecutionId>
+    <MessageText>GL Entry Transforms:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:24:43.087</Time>
+    <Source>GL Entry Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>328</Id>
+    <ExecutionId>3</ExecutionId>
+    <MessageText>Customer Master Transforms:Warning: The output column "OrderPath" (1139) on output "Output" (1018) and component "Sort CA" (825) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:24:48.52</Time>
+    <Source>Customer Master Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>329</Id>
+    <ExecutionId>3</ExecutionId>
+    <MessageText>Customer Master Transforms:Warning: The output column "OrderPath" (1459) on output "Output" (1338) and component "Sort US" (1145) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:24:48.52</Time>
+    <Source>Customer Master Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3873</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ProductSalesGroupMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.097</Time>
+    <Source>Import_XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3874</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ProductSalesGroupMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.1</Time>
+    <Source>Import_XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3875</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ProductSalesGroupMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ProductSalesGroupMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.103</Time>
+    <Source>Import XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component>XLSX_CA_ProductSalesGroupMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>3876</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ProductSalesGroupMapping:Error: XLSX_CA_ProductSalesGroupMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.107</Time>
+    <Source>Import XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3877</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ProductSalesGroupMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.107</Time>
+    <Source>Import XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3878</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ProductSalesGroupMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.11</Time>
+    <Source>Import XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3881</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_ProductSalesGroupMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_ProductSalesGroupMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.11</Time>
+    <Source>Execute Import_XLSX_CA_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3892</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_FootworksCustomerReconciliation:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.237</Time>
+    <Source>Import_XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3893</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_FootworksCustomerReconciliation:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.237</Time>
+    <Source>Import_XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3894</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_FootworksCustomerReconciliation:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "FootworksCustomerReconciliation_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.24</Time>
+    <Source>Import XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component>XLSX_CA_FootworksCustomerReconciliation [6]</Component>
+  </Message>
+  <Message>
+    <Id>3895</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_FootworksCustomerReconciliation:Error: XLSX_CA_FootworksCustomerReconciliation failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.243</Time>
+    <Source>Import XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3896</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_FootworksCustomerReconciliation:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.243</Time>
+    <Source>Import XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3897</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_FootworksCustomerReconciliation:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.247</Time>
+    <Source>Import XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3900</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_FootworksCustomerReconciliation:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_FootworksCustomerReconciliation.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.247</Time>
+    <Source>Execute Import_XLSX_CA_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3911</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerAdditionalData:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.59</Time>
+    <Source>Import_XLSX_CA_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3912</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerAdditionalData:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.59</Time>
+    <Source>Import_XLSX_CA_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3913</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerAdditionalData:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerAdditionalData_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.593</Time>
+    <Source>Import XLSX_CA_CustomerAdditionalData</Source>
+    <Component>XLSX_CA_CustomerAdditionalData [6]</Component>
+  </Message>
+  <Message>
+    <Id>3914</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerAdditionalData:Error: XLSX_CA_CustomerAdditionalData failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.593</Time>
+    <Source>Import XLSX_CA_CustomerAdditionalData</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3915</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerAdditionalData:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.597</Time>
+    <Source>Import XLSX_CA_CustomerAdditionalData</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3916</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerAdditionalData:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.597</Time>
+    <Source>Import XLSX_CA_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3919</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_CustomerAdditionalData:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_CustomerAdditionalData.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.6</Time>
+    <Source>Execute Import_XLSX_CA_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3930</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CountryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.307</Time>
+    <Source>Import_XLSX_CA_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3931</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CountryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.307</Time>
+    <Source>Import_XLSX_CA_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3932</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CountryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CountryMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.307</Time>
+    <Source>Import XLSX_CA_CountryMapping</Source>
+    <Component>XLSX_CA_CountryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>3933</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CountryMapping:Error: XLSX_CA_CountryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.31</Time>
+    <Source>Import XLSX_CA_CountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3934</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CountryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.313</Time>
+    <Source>Import XLSX_CA_CountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3935</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CountryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.313</Time>
+    <Source>Import XLSX_CA_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3938</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_CountryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_CountryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.317</Time>
+    <Source>Execute Import_XLSX_CA_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3949</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.95</Time>
+    <Source>Import_XLSX_CA_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3950</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.953</Time>
+    <Source>Import_XLSX_CA_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3951</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.953</Time>
+    <Source>Import XLSX_CA_CustomerMapping</Source>
+    <Component>XLSX_CA_CustomerMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>3952</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerMapping:Error: XLSX_CA_CustomerMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.957</Time>
+    <Source>Import XLSX_CA_CustomerMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3953</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.96</Time>
+    <Source>Import XLSX_CA_CustomerMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3954</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.96</Time>
+    <Source>Import XLSX_CA_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3957</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_CustomerMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_CustomerMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:44.963</Time>
+    <Source>Execute Import_XLSX_CA_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3968</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ChargebackMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.357</Time>
+    <Source>Import_XLSX_CA_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3969</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ChargebackMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.357</Time>
+    <Source>Import_XLSX_CA_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3970</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ChargebackMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ChargebackMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.36</Time>
+    <Source>Import XLSX_CA_ChargebackMapping</Source>
+    <Component>XLSX_CA_ChargebackMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>3971</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ChargebackMapping:Error: XLSX_CA_ChargebackMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.363</Time>
+    <Source>Import XLSX_CA_ChargebackMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3972</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ChargebackMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.363</Time>
+    <Source>Import XLSX_CA_ChargebackMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3973</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ChargebackMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.367</Time>
+    <Source>Import XLSX_CA_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3976</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_ChargebackMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_ChargebackMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.367</Time>
+    <Source>Execute Import_XLSX_CA_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3987</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ModeOfDeliveryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.647</Time>
+    <Source>Import_XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3988</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_ModeOfDeliveryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.647</Time>
+    <Source>Import_XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3989</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ModeOfDeliveryMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.65</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component>XLSX_CA_ModeOfDeliveryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>3990</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Error: XLSX_CA_ModeOfDeliveryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.653</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3991</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.653</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>3992</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.657</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>3995</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_ModeOfDeliveryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_ModeOfDeliveryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.657</Time>
+    <Source>Execute Import_XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4006</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_COAMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.993</Time>
+    <Source>Import_XLSX_CA_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4007</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_COAMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.993</Time>
+    <Source>Import_XLSX_CA_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4008</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_COAMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "COAMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.993</Time>
+    <Source>Import XLSX_CA_COAMapping</Source>
+    <Component>XLSX_CA_COAMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4009</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_COAMapping:Error: XLSX_CA_COAMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.997</Time>
+    <Source>Import XLSX_CA_COAMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4010</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_COAMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:45.997</Time>
+    <Source>Import XLSX_CA_COAMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4011</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_COAMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46</Time>
+    <Source>Import XLSX_CA_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4014</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_COAMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_COAMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46</Time>
+    <Source>Execute Import_XLSX_CA_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4025</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerBulkOrderGroupMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.637</Time>
+    <Source>Import_XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4026</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_CustomerBulkOrderGroupMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.637</Time>
+    <Source>Import_XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4027</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerBulkOrderGroupMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerBulkOrderGroupMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.637</Time>
+    <Source>Import XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component>XLSX_CA_CustomerBulkOrderGroupMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4028</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerBulkOrderGroupMapping:Error: XLSX_CA_CustomerBulkOrderGroupMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.64</Time>
+    <Source>Import XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4029</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerBulkOrderGroupMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.643</Time>
+    <Source>Import XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4030</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerBulkOrderGroupMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.643</Time>
+    <Source>Import XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4033</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_CustomerBulkOrderGroupMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_CustomerBulkOrderGroupMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.647</Time>
+    <Source>Execute Import_XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4044</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_PTCountryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.237</Time>
+    <Source>Import_XLSX_CA_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4045</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_PTCountryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.24</Time>
+    <Source>Import_XLSX_CA_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4046</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_PTCountryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "PTCountryMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.24</Time>
+    <Source>Import XLSX_CA_PTCountryMapping</Source>
+    <Component>XLSX_CA_PTCountryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4047</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_PTCountryMapping:Error: XLSX_CA_PTCountryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.243</Time>
+    <Source>Import XLSX_CA_PTCountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4048</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_PTCountryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.243</Time>
+    <Source>Import XLSX_CA_PTCountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4049</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_PTCountryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.247</Time>
+    <Source>Import XLSX_CA_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4052</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_PTCountryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_PTCountryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.247</Time>
+    <Source>Execute Import_XLSX_CA_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4063</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_StateMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.94</Time>
+    <Source>Import_XLSX_CA_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4064</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_StateMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.94</Time>
+    <Source>Import_XLSX_CA_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4065</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_StateMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "StateMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.943</Time>
+    <Source>Import XLSX_CA_StateMapping</Source>
+    <Component>XLSX_CA_StateMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4066</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_StateMapping:Error: XLSX_CA_StateMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.947</Time>
+    <Source>Import XLSX_CA_StateMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4067</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_StateMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.947</Time>
+    <Source>Import XLSX_CA_StateMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4068</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_StateMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.947</Time>
+    <Source>Import XLSX_CA_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4071</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_StateMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_StateMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:46.95</Time>
+    <Source>Execute Import_XLSX_CA_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4087</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_SalesmanMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.57</Time>
+    <Source>Import_XLSX_CA_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4088</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_SalesmanMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.57</Time>
+    <Source>Import_XLSX_CA_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4089</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SalesmanMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "SalesmanMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.573</Time>
+    <Source>Import XLSX_CA_SalesmanMapping</Source>
+    <Component>XLSX_CA_SalesmanMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4090</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SalesmanMapping:Error: XLSX_CA_SalesmanMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.577</Time>
+    <Source>Import XLSX_CA_SalesmanMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4091</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SalesmanMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.577</Time>
+    <Source>Import XLSX_CA_SalesmanMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4092</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SalesmanMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.577</Time>
+    <Source>Import XLSX_CA_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4095</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_SalesmanMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_SalesmanMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.58</Time>
+    <Source>Execute Import_XLSX_CA_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4106</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_SpecialInstructionsMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.927</Time>
+    <Source>Import_XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4107</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_SpecialInstructionsMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.927</Time>
+    <Source>Import_XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4108</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SpecialInstructionsMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "SpecialInstructionsMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.93</Time>
+    <Source>Import XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component>XLSX_CA_SpecialInstructionsMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4109</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SpecialInstructionsMapping:Error: XLSX_CA_SpecialInstructionsMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.933</Time>
+    <Source>Import XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4110</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SpecialInstructionsMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.933</Time>
+    <Source>Import XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4111</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_SpecialInstructionsMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.937</Time>
+    <Source>Import XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4114</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_SpecialInstructionsMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_SpecialInstructionsMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:47.937</Time>
+    <Source>Execute Import_XLSX_CA_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4125</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_DepartmentNameMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.537</Time>
+    <Source>Import_XLSX_DepartmentNameMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4126</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_DepartmentNameMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.537</Time>
+    <Source>Import_XLSX_DepartmentNameMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4127</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_DepartmentNameMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "DepartmentNameMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.537</Time>
+    <Source>Import XLSX_DepartmentNameMapping</Source>
+    <Component>XLSX_DepartmentNameMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4128</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_DepartmentNameMapping:Error: XLSX_DepartmentNameMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.54</Time>
+    <Source>Import XLSX_DepartmentNameMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4129</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_DepartmentNameMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.543</Time>
+    <Source>Import XLSX_DepartmentNameMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4130</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_DepartmentNameMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.543</Time>
+    <Source>Import XLSX_DepartmentNameMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4133</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_DepartmentNameMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_DepartmentNameMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.547</Time>
+    <Source>Execute Import_XLSX_DepartmentNameMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4144</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductSeasonMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.827</Time>
+    <Source>Import_XLSX_ProductSeasonMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4145</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductSeasonMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.827</Time>
+    <Source>Import_XLSX_ProductSeasonMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4146</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSeasonMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ProductSeasonMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.83</Time>
+    <Source>Import XLSX_ProductSeasonMapping</Source>
+    <Component>XLSX_ProductSeasonMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4147</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSeasonMapping:Error: XLSX_ProductSeasonMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.833</Time>
+    <Source>Import XLSX_ProductSeasonMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4148</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSeasonMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.837</Time>
+    <Source>Import XLSX_ProductSeasonMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4149</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSeasonMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.837</Time>
+    <Source>Import XLSX_ProductSeasonMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4152</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_ProductSeasonMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_ProductSeasonMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.84</Time>
+    <Source>Execute Import_XLSX_ProductSeasonMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4158</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CountryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.267</Time>
+    <Source>Import_XLSX_US_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4159</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CountryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.267</Time>
+    <Source>Import_XLSX_US_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4160</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CountryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CountryMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.267</Time>
+    <Source>Import XLSX_US_CountryMapping</Source>
+    <Component>XLSX_US_CountryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4161</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CountryMapping:Error: XLSX_US_CountryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.27</Time>
+    <Source>Import XLSX_US_CountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4162</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CountryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.273</Time>
+    <Source>Import XLSX_US_CountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4163</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CountryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.273</Time>
+    <Source>Import XLSX_US_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4166</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_CountryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_CountryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:48.277</Time>
+    <Source>Execute Import_XLSX_US_CountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4177</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_PaymentTermMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.327</Time>
+    <Source>Import_XLSX_PaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4183</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductFile:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.547</Time>
+    <Source>Import_XLSX_ProductFile</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4184</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductFile:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.547</Time>
+    <Source>Import_XLSX_ProductFile</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4185</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductFile:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ProductFile" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.55</Time>
+    <Source>Import XLSX_ProductFile</Source>
+    <Component>XLSX_ProductFile [6]</Component>
+  </Message>
+  <Message>
+    <Id>4186</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductFile:Error: XLSX_ProductFile failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.55</Time>
+    <Source>Import XLSX_ProductFile</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4187</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductFile:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.553</Time>
+    <Source>Import XLSX_ProductFile</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4188</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductFile:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.557</Time>
+    <Source>Import XLSX_ProductFile</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4191</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_ProductFile:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_ProductFile.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.557</Time>
+    <Source>Execute Import_XLSX_ProductFile</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4202</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ChargebackMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.937</Time>
+    <Source>Import_XLSX_US_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4203</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ChargebackMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.937</Time>
+    <Source>Import_XLSX_US_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4204</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ChargebackMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ChargebackMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.94</Time>
+    <Source>Import XLSX_US_ChargebackMapping</Source>
+    <Component>XLSX_US_ChargebackMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4205</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ChargebackMapping:Error: XLSX_US_ChargebackMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.943</Time>
+    <Source>Import XLSX_US_ChargebackMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4206</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ChargebackMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.947</Time>
+    <Source>Import XLSX_US_ChargebackMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4207</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ChargebackMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.947</Time>
+    <Source>Import XLSX_US_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4210</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_ChargebackMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_ChargebackMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.947</Time>
+    <Source>Execute Import_XLSX_US_ChargebackMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4221</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_COAMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.653</Time>
+    <Source>Import_XLSX_US_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4222</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_COAMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.657</Time>
+    <Source>Import_XLSX_US_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4223</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_COAMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "COAMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.657</Time>
+    <Source>Import XLSX_US_COAMapping</Source>
+    <Component>XLSX_US_COAMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4224</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_COAMapping:Error: XLSX_US_COAMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.66</Time>
+    <Source>Import XLSX_US_COAMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4225</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_COAMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.66</Time>
+    <Source>Import XLSX_US_COAMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4226</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_COAMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.663</Time>
+    <Source>Import XLSX_US_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4229</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_COAMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_COAMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.667</Time>
+    <Source>Execute Import_XLSX_US_COAMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4240</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_VendorMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.17</Time>
+    <Source>Import_XLSX_CA_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4241</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_VendorMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.17</Time>
+    <Source>Import_XLSX_CA_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4242</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_VendorMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "VendorMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.17</Time>
+    <Source>Import XLSX_CA_VendorMapping</Source>
+    <Component>XLSX_CA_VendorMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4243</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_VendorMapping:Error: XLSX_CA_VendorMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.173</Time>
+    <Source>Import XLSX_CA_VendorMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4244</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_VendorMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.177</Time>
+    <Source>Import XLSX_CA_VendorMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4245</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_VendorMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.177</Time>
+    <Source>Import XLSX_CA_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4248</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_VendorMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_VendorMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:49.177</Time>
+    <Source>Execute Import_XLSX_CA_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4260</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerAdditionalData:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.95</Time>
+    <Source>Import_XLSX_US_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4261</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerAdditionalData:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.953</Time>
+    <Source>Import_XLSX_US_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4262</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerAdditionalData:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerAdditionalData_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.953</Time>
+    <Source>Import XLSX_US_CustomerAdditionalData</Source>
+    <Component>XLSX_US_CustomerAdditionalData [6]</Component>
+  </Message>
+  <Message>
+    <Id>4263</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerAdditionalData:Error: XLSX_US_CustomerAdditionalData failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.957</Time>
+    <Source>Import XLSX_US_CustomerAdditionalData</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4264</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerAdditionalData:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.957</Time>
+    <Source>Import XLSX_US_CustomerAdditionalData</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4265</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerAdditionalData:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.96</Time>
+    <Source>Import XLSX_US_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4268</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_CustomerAdditionalData:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_CustomerAdditionalData.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.963</Time>
+    <Source>Execute Import_XLSX_US_CustomerAdditionalData</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4274</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_PaymentTermMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.327</Time>
+    <Source>Import_XLSX_PaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4275</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PaymentTermMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "PaymentTermMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.53</Time>
+    <Source>Import XLSX_PaymentTermMapping</Source>
+    <Component>XLSX_PaymentTermMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4276</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PaymentTermMapping:Error: XLSX_PaymentTermMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.533</Time>
+    <Source>Import XLSX_PaymentTermMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4277</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PaymentTermMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.537</Time>
+    <Source>Import XLSX_PaymentTermMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4278</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PaymentTermMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.537</Time>
+    <Source>Import XLSX_PaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4281</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_PaymentTermMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_PaymentTermMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:50.54</Time>
+    <Source>Execute Import_XLSX_PaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4292</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_PTPaymentTermMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.573</Time>
+    <Source>Import_XLSX_PTPaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4293</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_PTPaymentTermMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.573</Time>
+    <Source>Import_XLSX_PTPaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4294</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PTPaymentTermMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "PTPaymentTermMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.577</Time>
+    <Source>Import XLSX_PTPaymentTermMapping</Source>
+    <Component>XLSX_PTPaymentTermMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4295</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PTPaymentTermMapping:Error: XLSX_PTPaymentTermMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.577</Time>
+    <Source>Import XLSX_PTPaymentTermMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4296</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PTPaymentTermMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.58</Time>
+    <Source>Import XLSX_PTPaymentTermMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4297</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_PTPaymentTermMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.583</Time>
+    <Source>Import XLSX_PTPaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4300</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_PTPaymentTermMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_PTPaymentTermMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.587</Time>
+    <Source>Execute Import_XLSX_PTPaymentTermMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4311</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_UnitOfMeasureMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.907</Time>
+    <Source>Import_XLSX_UnitOfMeasureMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4312</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_UnitOfMeasureMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.907</Time>
+    <Source>Import_XLSX_UnitOfMeasureMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4313</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_UnitOfMeasureMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "UnitOfMeasureMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.907</Time>
+    <Source>Import XLSX_UnitOfMeasureMapping</Source>
+    <Component>XLSX_UnitOfMeasureMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4314</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_UnitOfMeasureMapping:Error: XLSX_UnitOfMeasureMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.91</Time>
+    <Source>Import XLSX_UnitOfMeasureMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4315</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_UnitOfMeasureMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.913</Time>
+    <Source>Import XLSX_UnitOfMeasureMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4316</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_UnitOfMeasureMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.913</Time>
+    <Source>Import XLSX_UnitOfMeasureMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4319</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_UnitOfMeasureMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_UnitOfMeasureMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.917</Time>
+    <Source>Execute Import_XLSX_UnitOfMeasureMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4330</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductSizesMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.537</Time>
+    <Source>Import_XLSX_ProductSizesMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4331</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_ProductSizesMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.54</Time>
+    <Source>Import_XLSX_ProductSizesMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4332</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSizesMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ProductSizesMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.54</Time>
+    <Source>Import XLSX_ProductSizesMapping</Source>
+    <Component>XLSX_ProductSizesMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4333</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSizesMapping:Error: XLSX_ProductSizesMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.543</Time>
+    <Source>Import XLSX_ProductSizesMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4334</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSizesMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.547</Time>
+    <Source>Import XLSX_ProductSizesMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4335</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_ProductSizesMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.547</Time>
+    <Source>Import XLSX_ProductSizesMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4338</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_ProductSizesMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_ProductSizesMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.55</Time>
+    <Source>Execute Import_XLSX_ProductSizesMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4348</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_WarehouseMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.533</Time>
+    <Source>Import_XLSX_CA_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4349</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_CA_WarehouseMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.533</Time>
+    <Source>Import_XLSX_CA_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4350</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_WarehouseMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "WarehouseMapping_CA" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.537</Time>
+    <Source>Import XLSX_CA_WarehouseMapping</Source>
+    <Component>XLSX_CA_WarehouseMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4351</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_WarehouseMapping:Error: XLSX_CA_WarehouseMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.54</Time>
+    <Source>Import XLSX_CA_WarehouseMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4352</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_WarehouseMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.543</Time>
+    <Source>Import XLSX_CA_WarehouseMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4353</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_CA_WarehouseMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.543</Time>
+    <Source>Import XLSX_CA_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4356</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_CA_WarehouseMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_CA_WarehouseMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:51.547</Time>
+    <Source>Execute Import_XLSX_CA_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4369</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_FWSuppliers:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.937</Time>
+    <Source>Import_XLSX_FWSuppliers</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4370</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_FWSuppliers:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.937</Time>
+    <Source>Import_XLSX_FWSuppliers</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4371</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_FWSuppliers:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "FWSuppliers" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.937</Time>
+    <Source>Import XLSX_FWSuppliers</Source>
+    <Component>XLSX_FWSuppliers [6]</Component>
+  </Message>
+  <Message>
+    <Id>4372</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_FWSuppliers:Error: XLSX_FWSuppliers failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.94</Time>
+    <Source>Import XLSX_FWSuppliers</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4373</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_FWSuppliers:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.943</Time>
+    <Source>Import XLSX_FWSuppliers</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4374</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_FWSuppliers:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.943</Time>
+    <Source>Import XLSX_FWSuppliers</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4377</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_FWSuppliers:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_FWSuppliers.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.947</Time>
+    <Source>Execute Import_XLSX_FWSuppliers</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4388</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerBulkOrderGroupMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.213</Time>
+    <Source>Import_XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4389</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerBulkOrderGroupMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.213</Time>
+    <Source>Import_XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4390</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerBulkOrderGroupMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerBulkOrderGroupMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.217</Time>
+    <Source>Import XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component>XLSX_US_CustomerBulkOrderGroupMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4391</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerBulkOrderGroupMapping:Error: XLSX_US_CustomerBulkOrderGroupMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.22</Time>
+    <Source>Import XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4392</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerBulkOrderGroupMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.223</Time>
+    <Source>Import XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4393</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerBulkOrderGroupMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.227</Time>
+    <Source>Import XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4396</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_CustomerBulkOrderGroupMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_CustomerBulkOrderGroupMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:52.227</Time>
+    <Source>Execute Import_XLSX_US_CustomerBulkOrderGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4407</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_Employees:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.5</Time>
+    <Source>Import_XLSX_US_Employees</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4408</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_Employees:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.503</Time>
+    <Source>Import_XLSX_US_Employees</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4409</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_Employees:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "Employees_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.503</Time>
+    <Source>Import XLSX_US_Employees</Source>
+    <Component>XLSX_US_Employees [6]</Component>
+  </Message>
+  <Message>
+    <Id>4410</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_Employees:Error: XLSX_US_Employees failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.507</Time>
+    <Source>Import XLSX_US_Employees</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4411</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_Employees:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.507</Time>
+    <Source>Import XLSX_US_Employees</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4412</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_Employees:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.51</Time>
+    <Source>Import XLSX_US_Employees</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4415</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_Employees:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_Employees.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.51</Time>
+    <Source>Execute Import_XLSX_US_Employees</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4426</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.787</Time>
+    <Source>Import_XLSX_US_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4427</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.79</Time>
+    <Source>Import_XLSX_US_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4428</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.79</Time>
+    <Source>Import XLSX_US_CustomerMapping</Source>
+    <Component>XLSX_US_CustomerMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4429</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerMapping:Error: XLSX_US_CustomerMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.793</Time>
+    <Source>Import XLSX_US_CustomerMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4430</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.793</Time>
+    <Source>Import XLSX_US_CustomerMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4431</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.797</Time>
+    <Source>Import XLSX_US_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4434</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_CustomerMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_CustomerMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.797</Time>
+    <Source>Execute Import_XLSX_US_CustomerMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4445</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerChainMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.39</Time>
+    <Source>Import_XLSX_US_CustomerChainMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4446</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_CustomerChainMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.39</Time>
+    <Source>Import_XLSX_US_CustomerChainMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4447</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerChainMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "CustomerChainMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.393</Time>
+    <Source>Import XLSX_US_CustomerChainMapping</Source>
+    <Component>XLSX_US_CustomerChainMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4448</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerChainMapping:Error: XLSX_US_CustomerChainMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.397</Time>
+    <Source>Import XLSX_US_CustomerChainMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4449</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerChainMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.4</Time>
+    <Source>Import XLSX_US_CustomerChainMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4450</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_CustomerChainMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.4</Time>
+    <Source>Import XLSX_US_CustomerChainMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4453</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_CustomerChainMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_CustomerChainMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.403</Time>
+    <Source>Execute Import_XLSX_US_CustomerChainMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4462</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_GenderMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.247</Time>
+    <Source>Import_XLSX_GenderMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4463</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_GenderMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.25</Time>
+    <Source>Import_XLSX_GenderMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4464</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_GenderMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "GenderMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.25</Time>
+    <Source>Import XLSX_GenderMapping</Source>
+    <Component>XLSX_GenderMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4465</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_GenderMapping:Error: XLSX_GenderMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.253</Time>
+    <Source>Import XLSX_GenderMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4466</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_GenderMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.257</Time>
+    <Source>Import XLSX_GenderMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4467</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_GenderMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.257</Time>
+    <Source>Import XLSX_GenderMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4470</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_GenderMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_GenderMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:53.257</Time>
+    <Source>Execute Import_XLSX_GenderMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4481</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ModeOfDeliveryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.66</Time>
+    <Source>Import_XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4482</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ModeOfDeliveryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.66</Time>
+    <Source>Import_XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4483</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ModeOfDeliveryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ModeOfDeliveryMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.663</Time>
+    <Source>Import XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component>XLSX_US_ModeOfDeliveryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4484</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ModeOfDeliveryMapping:Error: XLSX_US_ModeOfDeliveryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.667</Time>
+    <Source>Import XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4485</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ModeOfDeliveryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.667</Time>
+    <Source>Import XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4486</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ModeOfDeliveryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.67</Time>
+    <Source>Import XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4489</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_ModeOfDeliveryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_ModeOfDeliveryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.673</Time>
+    <Source>Execute Import_XLSX_US_ModeOfDeliveryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4500</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_FootworksCustomerReconciliation:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.1</Time>
+    <Source>Import_XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4501</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_FootworksCustomerReconciliation:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.1</Time>
+    <Source>Import_XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4502</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_FootworksCustomerReconciliation:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "FootworksCustomerReconciliation_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.1</Time>
+    <Source>Import XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component>XLSX_US_FootworksCustomerReconciliation [6]</Component>
+  </Message>
+  <Message>
+    <Id>4503</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_FootworksCustomerReconciliation:Error: XLSX_US_FootworksCustomerReconciliation failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.103</Time>
+    <Source>Import XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4504</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_FootworksCustomerReconciliation:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.107</Time>
+    <Source>Import XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4505</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_FootworksCustomerReconciliation:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.107</Time>
+    <Source>Import XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4508</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_FootworksCustomerReconciliation:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_FootworksCustomerReconciliation.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.11</Time>
+    <Source>Execute Import_XLSX_US_FootworksCustomerReconciliation</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4519</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_PTCountryMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.287</Time>
+    <Source>Import_XLSX_US_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4520</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_PTCountryMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.287</Time>
+    <Source>Import_XLSX_US_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4521</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_PTCountryMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "PTCountryMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.287</Time>
+    <Source>Import XLSX_US_PTCountryMapping</Source>
+    <Component>XLSX_US_PTCountryMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4522</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_PTCountryMapping:Error: XLSX_US_PTCountryMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.29</Time>
+    <Source>Import XLSX_US_PTCountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4523</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_PTCountryMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.293</Time>
+    <Source>Import XLSX_US_PTCountryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4524</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_PTCountryMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.293</Time>
+    <Source>Import XLSX_US_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4527</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_PTCountryMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_PTCountryMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.297</Time>
+    <Source>Execute Import_XLSX_US_PTCountryMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4538</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_SalesmanMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.683</Time>
+    <Source>Import_XLSX_US_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4539</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_SalesmanMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.683</Time>
+    <Source>Import_XLSX_US_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4540</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "SalesmanMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.687</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>XLSX_US_SalesmanMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4541</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Error: XLSX_US_SalesmanMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.687</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4542</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.69</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4543</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.69</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4546</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_SalesmanMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_SalesmanMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.693</Time>
+    <Source>Execute Import_XLSX_US_SalesmanMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4549</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_Master:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (259) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:38:55.697</Time>
+    <Source>Import_XLSX_Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4555</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_VendorPaymentMethodsMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.287</Time>
+    <Source>Import_XLSX_VendorPaymentMethodsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4556</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_VendorPaymentMethodsMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.287</Time>
+    <Source>Import_XLSX_VendorPaymentMethodsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4557</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_VendorPaymentMethodsMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "VendorPaymentMethodsMapping" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.287</Time>
+    <Source>Import XLSX_VendorPaymentMethodsMapping</Source>
+    <Component>XLSX_VendorPaymentMethodsMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4558</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_VendorPaymentMethodsMapping:Error: XLSX_VendorPaymentMethodsMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.29</Time>
+    <Source>Import XLSX_VendorPaymentMethodsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4559</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_VendorPaymentMethodsMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.293</Time>
+    <Source>Import XLSX_VendorPaymentMethodsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4560</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_VendorPaymentMethodsMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.293</Time>
+    <Source>Import XLSX_VendorPaymentMethodsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4563</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_VendorPaymentMethodsMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_VendorPaymentMethodsMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.297</Time>
+    <Source>Execute Import_XLSX_VendorPaymentMethodsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4571</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_StateMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.963</Time>
+    <Source>Import_XLSX_US_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4572</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_StateMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.967</Time>
+    <Source>Import_XLSX_US_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4573</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_StateMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "StateMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.967</Time>
+    <Source>Import XLSX_US_StateMapping</Source>
+    <Component>XLSX_US_StateMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4574</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_StateMapping:Error: XLSX_US_StateMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.97</Time>
+    <Source>Import XLSX_US_StateMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4575</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_StateMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.97</Time>
+    <Source>Import XLSX_US_StateMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4576</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_StateMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.973</Time>
+    <Source>Import XLSX_US_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4579</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_StateMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_StateMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:54.977</Time>
+    <Source>Execute Import_XLSX_US_StateMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4590</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_VendorMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.62</Time>
+    <Source>Import_XLSX_US_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4591</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_VendorMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.623</Time>
+    <Source>Import_XLSX_US_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4592</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_VendorMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "VendorMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.623</Time>
+    <Source>Import XLSX_US_VendorMapping</Source>
+    <Component>XLSX_US_VendorMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4593</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_VendorMapping:Error: XLSX_US_VendorMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.627</Time>
+    <Source>Import XLSX_US_VendorMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4594</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_VendorMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.627</Time>
+    <Source>Import XLSX_US_VendorMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4595</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_VendorMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.63</Time>
+    <Source>Import XLSX_US_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4598</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_VendorMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_VendorMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.63</Time>
+    <Source>Execute Import_XLSX_US_VendorMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4606</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_WarehouseMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.977</Time>
+    <Source>Import_XLSX_US_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4607</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_WarehouseMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.977</Time>
+    <Source>Import_XLSX_US_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4608</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_WarehouseMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "WarehouseMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.98</Time>
+    <Source>Import XLSX_US_WarehouseMapping</Source>
+    <Component>XLSX_US_WarehouseMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4609</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_WarehouseMapping:Error: XLSX_US_WarehouseMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.983</Time>
+    <Source>Import XLSX_US_WarehouseMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4610</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_WarehouseMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.983</Time>
+    <Source>Import XLSX_US_WarehouseMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4611</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_WarehouseMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.987</Time>
+    <Source>Import XLSX_US_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4614</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_WarehouseMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_WarehouseMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:55.987</Time>
+    <Source>Execute Import_XLSX_US_WarehouseMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4617</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Master:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (294) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:38:57.197</Time>
+    <Source>Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4624</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_SpecialInstructionsMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.183</Time>
+    <Source>Import_XLSX_US_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4625</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_SpecialInstructionsMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.183</Time>
+    <Source>Import_XLSX_US_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4626</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SpecialInstructionsMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "SpecialInstructionsMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.183</Time>
+    <Source>Import XLSX_US_SpecialInstructionsMapping</Source>
+    <Component>XLSX_US_SpecialInstructionsMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4627</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SpecialInstructionsMapping:Error: XLSX_US_SpecialInstructionsMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.187</Time>
+    <Source>Import XLSX_US_SpecialInstructionsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4628</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SpecialInstructionsMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.187</Time>
+    <Source>Import XLSX_US_SpecialInstructionsMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4629</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_SpecialInstructionsMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.19</Time>
+    <Source>Import XLSX_US_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4632</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_SpecialInstructionsMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_SpecialInstructionsMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:57.19</Time>
+    <Source>Execute Import_XLSX_US_SpecialInstructionsMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4643</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ProductSalesGroupMapping:Error: The requested OLE DB provider Microsoft.ACE.OLEDB.12.0 is not registered. If the 32-bit driver is not installed, run the package in 64-bit mode. Error code: 0x00000000.
+An OLE DB record is available.  Source: "Microsoft OLE DB Service Components"  Hresult: 0x80040154  Description: "Class not registered".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.947</Time>
+    <Source>Import_XLSX_US_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4644</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import_XLSX_US_ProductSalesGroupMapping:Error: The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine. For more information, see http://go.microsoft.com/fwlink/?LinkId=219816
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.947</Time>
+    <Source>Import_XLSX_US_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4645</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ProductSalesGroupMapping:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "ProductSalesGroupMapping_US" failed with error code 0xC0209302.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.947</Time>
+    <Source>Import XLSX_US_ProductSalesGroupMapping</Source>
+    <Component>XLSX_US_ProductSalesGroupMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>4646</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ProductSalesGroupMapping:Error: XLSX_US_ProductSalesGroupMapping failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.95</Time>
+    <Source>Import XLSX_US_ProductSalesGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4647</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ProductSalesGroupMapping:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.953</Time>
+    <Source>Import XLSX_US_ProductSalesGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>4648</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Import XLSX_US_ProductSalesGroupMapping:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.953</Time>
+    <Source>Import XLSX_US_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4651</Id>
+    <ExecutionId>4</ExecutionId>
+    <MessageText>Execute Import_XLSX_US_ProductSalesGroupMapping:Error: Error 0xC0012050 while executing package from project reference package "Import_XLSX_US_ProductSalesGroupMapping.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-01T14:38:56.957</Time>
+    <Source>Execute Import_XLSX_US_ProductSalesGroupMapping</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>4921</Id>
+    <ExecutionId>5</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerMapping:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:52:15.197</Time>
+    <Source>Import XLSX_CA_CustomerMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>6727</Id>
+    <ExecutionId>5</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Warning: The external columns for XLSX_US_SalesmanMapping are out of synchronization with the data source columns. The external column "Emp No" needs to be updated.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:52:25.813</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>XLSX_US_SalesmanMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>6739</Id>
+    <ExecutionId>5</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Warning: The external columns for XLSX_US_SalesmanMapping are out of synchronization with the data source columns. The external column "Emp No" needs to be updated.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:52:25.837</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>XLSX_US_SalesmanMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>6785</Id>
+    <ExecutionId>5</ExecutionId>
+    <MessageText>Import XLSX_US_SalesmanMapping:Warning: The external columns for XLSX_US_SalesmanMapping are out of synchronization with the data source columns. The external column "Emp No" needs to be updated.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-01T14:52:25.977</Time>
+    <Source>Import XLSX_US_SalesmanMapping</Source>
+    <Component>XLSX_US_SalesmanMapping [6]</Component>
+  </Message>
+  <Message>
+    <Id>10982</Id>
+    <ExecutionId>7</ExecutionId>
+    <MessageText>Load_Master:Error: SSIS Error Code DTS_E_OLEDBERROR.  An OLE DB error has occurred. Error code: 0x80004005.
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "Login timeout expired".
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "Unable to complete login process due to delay in login response".
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "TCP Provider: Timeout error [258]. ".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-02T10:17:21.82</Time>
+    <Source>Load_Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>10983</Id>
+    <ExecutionId>7</ExecutionId>
+    <MessageText>Teardown existing data:Error: Failed to acquire connection "ODS". Connection may not be configured correctly or you may not have the right permissions on this connection.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-02T10:17:21.82</Time>
+    <Source>Teardown existing data</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>10986</Id>
+    <ExecutionId>7</ExecutionId>
+    <MessageText>Load_Master:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (1) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:17:21.833</Time>
+    <Source>Load_Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>11042</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load DimLedgerAccountUSCA:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:39:02.947</Time>
+    <Source>Load DimLedgerAccountUSCA</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>11142</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Season/Year Code" with a length of 255 to database column "Season/Year Code" with a length of 10.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:39:57.857</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11143</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Legacy Size" with a length of 6 to database column "Legacy Size" with a length of 3.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:39:57.857</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11151</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Season/Year Code" with a length of 255 to database column "Season/Year Code" with a length of 10.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:39:59.013</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11152</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Legacy Size" with a length of 6 to database column "Legacy Size" with a length of 3.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:39:59.013</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11165</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Season/Year Code" with a length of 255 to database column "Season/Year Code" with a length of 10.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:40:00.187</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11166</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Purchase Order:Warning: Truncation may occur due to inserting data from data flow column "Legacy Size" with a length of 6 to database column "Legacy Size" with a length of 3.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:40:00.187</Time>
+    <Source>Load Fact Purchase Order</Source>
+    <Component>FactFootworkPurchaseOrder [42]</Component>
+  </Message>
+  <Message>
+    <Id>11221</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: The output column "DiscountAmt" (416) on output "Output" (404) and component "Sales Order Line Source" (393) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:40:41.697</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>11230</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: The Lookup ZAP Customers encountered duplicate reference key values when caching reference data. This error occurs in Full Cache mode only. Either remove the duplicate key values, or change the cache mode to PARTIAL or NO_CACHE.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T10:40:42.79</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>Lookup ZAP Customers [359]</Component>
+  </Message>
+  <Message>
+    <Id>11264</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: Truncation may occur due to inserting data from data flow column "Sales order" with a length of 255 to database column "Sales Order" with a length of 20.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:00:39.397</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>FactFootworkSalesOrder [48]</Component>
+  </Message>
+  <Message>
+    <Id>11272</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: Truncation may occur due to inserting data from data flow column "Sales order" with a length of 255 to database column "Sales Order" with a length of 20.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:00:40.333</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>FactFootworkSalesOrder [48]</Component>
+  </Message>
+  <Message>
+    <Id>11285</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: Truncation may occur due to inserting data from data flow column "Sales order" with a length of 255 to database column "Sales Order" with a length of 20.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:00:47.097</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>FactFootworkSalesOrder [48]</Component>
+  </Message>
+  <Message>
+    <Id>11368</Id>
+    <ExecutionId>8</ExecutionId>
+    <MessageText>Load Fact Sales Order:Warning: The Lookup ZAP Customers encountered duplicate reference key values when caching reference data. This error occurs in Full Cache mode only. Either remove the duplicate key values, or change the cache mode to PARTIAL or NO_CACHE.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:06:46.88</Time>
+    <Source>Load Fact Sales Order</Source>
+    <Component>Lookup ZAP Customers [341]</Component>
+  </Message>
+  <Message>
+    <Id>11436</Id>
+    <ExecutionId>10</ExecutionId>
+    <MessageText>Load DimLedgerAccountUSCA:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:34:15.693</Time>
+    <Source>Load DimLedgerAccountUSCA</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>11818</Id>
+    <ExecutionId>12</ExecutionId>
+    <MessageText>Load DimLedgerAccountUSCA:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-02T11:44:48.447</Time>
+    <Source>Load DimLedgerAccountUSCA</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>12597</Id>
+    <ExecutionId>15</ExecutionId>
+    <MessageText>Import AX_BankAccountTable table:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-10T15:21:35.393</Time>
+    <Source>Import AX_BankAccountTable table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>16319</Id>
+    <ExecutionId>16</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-10T16:31:38.563</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>18677</Id>
+    <ExecutionId>18</ExecutionId>
+    <MessageText>Import PT_CA_Lookup1099Type table:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T09:27:39.713</Time>
+    <Source>Import PT_CA_Lookup1099Type table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>19583</Id>
+    <ExecutionId>19</ExecutionId>
+    <MessageText>Import XLSX_CA_COAMapping:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:16:55.937</Time>
+    <Source>Import XLSX_CA_COAMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>25879</Id>
+    <ExecutionId>20</ExecutionId>
+    <MessageText>Import XLSX_CA_CustomerBulkOrderGroupMapping:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:29:42.123</Time>
+    <Source>Import XLSX_CA_CustomerBulkOrderGroupMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>31461</Id>
+    <ExecutionId>22</ExecutionId>
+    <MessageText>Import XLSX_CA_ModeOfDeliveryMapping:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:33:05.343</Time>
+    <Source>Import XLSX_CA_ModeOfDeliveryMapping</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>37735</Id>
+    <ExecutionId>23</ExecutionId>
+    <MessageText>APOpenTransactions Transforms:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:40:50.907</Time>
+    <Source>APOpenTransactions Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>37916</Id>
+    <ExecutionId>23</ExecutionId>
+    <MessageText>Customer Master Transforms:Warning: The output column "OrderPath" (1139) on output "Output" (1018) and component "Sort CA" (825) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:41:01.953</Time>
+    <Source>Customer Master Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>37917</Id>
+    <ExecutionId>23</ExecutionId>
+    <MessageText>Customer Master Transforms:Warning: The output column "OrderPath" (1459) on output "Output" (1338) and component "Sort US" (1145) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-11T11:41:01.953</Time>
+    <Source>Customer Master Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>41280</Id>
+    <ExecutionId>24</ExecutionId>
+    <MessageText>Import CSV_EcomSalesOrderLine:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T12:07:39.527</Time>
+    <Source>Import CSV_EcomSalesOrderLine</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>41844</Id>
+    <ExecutionId>25</ExecutionId>
+    <MessageText>Import AX_DimensionFinancialTag table:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T12:22:09.897</Time>
+    <Source>Import AX_DimensionFinancialTag table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45386</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T12:38:07.837</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45552</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Error: An error occurred while attempting to perform a type cast.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T12:55:26.483</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>Add default and blank columns [2]</Component>
+  </Message>
+  <Message>
+    <Id>45553</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Error: SSIS Error Code DTS_E_INDUCEDTRANSFORMFAILUREONERROR.  The "Add default and blank columns" failed because error code 0xC0049064 occurred, and the error row disposition on "Add default and blank columns.Outputs[Output].Columns[Net amount]" specifies failure on error. An error occurred on the specified object of the specified component.  There may be error messages posted before this with more information about the failure.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T12:55:26.49</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>Add default and blank columns [2]</Component>
+  </Message>
+  <Message>
+    <Id>45554</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Error: SSIS Error Code DTS_E_PROCESSINPUTFAILED.  The ProcessInput method on component "Add default and blank columns" (2) failed with error code 0xC0209029 while processing input "Derived Column Input" (3). The identified component returned an error from the ProcessInput method. The error is specific to the component, but the error is fatal and will cause the Data Flow task to stop running.  There may be error messages posted before this with more information about the failure.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T12:55:26.49</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45556</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Error: The attempt to add a row to the Data Flow task buffer failed with error code 0xC0047020.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T12:55:27.517</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>Ecom Staging Source [331]</Component>
+  </Message>
+  <Message>
+    <Id>45557</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Error: SSIS Error Code DTS_E_PRIMEOUTPUTFAILED.  The PrimeOutput method on Ecom Staging Source returned error code 0xC02020C4.  The component returned a failure code when the pipeline engine called PrimeOutput(). The meaning of the failure code is defined by the component, but the error is fatal and the pipeline stopped executing.  There may be error messages posted before this with more information about the failure.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T12:55:27.52</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45565</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Ecom_Master:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (5) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T12:55:29.53</Time>
+    <Source>Ecom_Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45569</Id>
+    <ExecutionId>26</ExecutionId>
+    <MessageText>Transform_EcomSOLine:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (5) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T12:55:29.523</Time>
+    <Source>Transform_EcomSOLine</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45616</Id>
+    <ExecutionId>27</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T13:05:30.753</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45821</Id>
+    <ExecutionId>28</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T13:52:36.327</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45903</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Ecom_Master:Warning: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (6) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T14:06:54.847</Time>
+    <Source>Ecom_Master</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45905</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import_AX_LogisticsPostalAddress:Error: SSIS Error Code DTS_E_OLEDBERROR.  An OLE DB error has occurred. Error code: 0x80004005.
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "Login timeout expired".
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.".
+An OLE DB record is available.  Source: "Microsoft SQL Server Native Client 11.0"  Hresult: 0x80004005  Description: "SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. ".
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.83</Time>
+    <Source>Import_AX_LogisticsPostalAddress</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45906</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Error: SSIS Error Code DTS_E_CANNOTACQUIRECONNECTIONFROMCONNECTIONMANAGER.  The AcquireConnection method call to the connection manager "SourceSystemAX" failed with error code 0xC0202009.  There may be error messages posted before this with more information on why the AcquireConnection method call failed.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.837</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component>AX_LogisticsPostalAddress [2]</Component>
+  </Message>
+  <Message>
+    <Id>45907</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Error: AX_LogisticsPostalAddress failed validation and returned error code 0xC020801C.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.84</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45908</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Error: One or more component failed validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.84</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>45909</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import AX_LogisticsPostalAddress table:Error: There were errors during task validation.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.84</Time>
+    <Source>Import AX_LogisticsPostalAddress table</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45912</Id>
+    <ExecutionId>30</ExecutionId>
+    <MessageText>Import AX LogisticsPostalAddress:Error: Error 0xC0012050 while executing package from project reference package "Import_AX_LogisticsPostalAddress.dtsx". Package failed validation from the ExecutePackage task. The package cannot run.
+.
+</MessageText>
+    <MessageType>120</MessageType>
+    <Time>2015-07-15T14:06:54.843</Time>
+    <Source>Import AX LogisticsPostalAddress</Source>
+    <Component />
+  </Message>
+  <Message>
+    <Id>45960</Id>
+    <ExecutionId>31</ExecutionId>
+    <MessageText>Ecom Open SO Line Transforms:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-15T14:32:31.867</Time>
+    <Source>Ecom Open SO Line Transforms</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>46162</Id>
+    <ExecutionId>32</ExecutionId>
+    <MessageText>Load DimLedgerAccountUSCA:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-22T14:46:25.947</Time>
+    <Source>Load DimLedgerAccountUSCA</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+  <Message>
+    <Id>46743</Id>
+    <ExecutionId>35</ExecutionId>
+    <MessageText>Load DimLedgerAccountUSCA:Warning: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+</MessageText>
+    <MessageType>110</MessageType>
+    <Time>2015-07-29T11:07:30.07</Time>
+    <Source>Load DimLedgerAccountUSCA</Source>
+    <Component>SSIS.Pipeline</Component>
+  </Message>
+</ArrayOfMessage>

@@ -1,0 +1,19 @@
+﻿<script src="/Scripts/dashboard.js"></script>
+<div class="blockUI">
+    <div class="row">
+        <div class="col-lg-11 col-sm-offset-1 ">
+            @{Html.RenderPartial("KPI");}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-sm-offset-1">
+            @{Html.RenderPartial("Executions");}
+        </div>
+    </div>
+</div>
+<div style="display: none">
+    @{Html.RenderPartial("Executables");}
+</div>
+<div style="display: none">
+    @{Html.RenderPartial("Messages");}
+</div>
