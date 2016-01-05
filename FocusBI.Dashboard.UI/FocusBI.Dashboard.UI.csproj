@@ -269,7 +269,6 @@
     <Content Include="Content\images\CompanyLogo.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\Logo.png" />
-    <Content Include="Content\images\SCS.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

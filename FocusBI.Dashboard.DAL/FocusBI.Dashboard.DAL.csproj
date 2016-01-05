@@ -59,7 +59,6 @@
     <Compile Include="Repositories\KpiRepository.cs" />
     <Compile Include="Repositories\ExecutionRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
-    <Compile Include="Repositories\XmlDataRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

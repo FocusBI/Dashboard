@@ -6,13 +6,7 @@ namespace FoucsBI.Dashboard.DAL
 {
     public class ExecutionRepository : RepositoryBase
     {
-        public List<Execution> Fetch()
-        {
-            var data = XmlDataRepository.Executions.ToList();
-            return data;
-        }
-
-        public virtual List<Execution> FetchAll()
+        public virtual List<Execution> Fetch()
         {
             var sql = @"
                 SELECT
@@ -49,7 +43,7 @@ namespace FoucsBI.Dashboard.DAL
 		                ) errors ON errors.operation_id = e.execution_id
                 ORDER BY e.execution_id ASC
                 ";
-            var data = context.Database.SqlQuery<Execution>(sql).ToList();
+            var data = context.Database.SqlQuery<Execution>(sql).ToList(); ;
             return data;
         }
     }

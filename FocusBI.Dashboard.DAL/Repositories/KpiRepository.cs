@@ -12,13 +12,8 @@ namespace FoucsBI.Dashboard.DAL
             public int StatusId { get; set; }
             public int RowCount { get; set; }
         }
-        
-        public List<KPI> Fetch()
-        {
-            var data = XmlDataRepository.Kpis;
-            return data;
-        }
-        public virtual List<KPI> FetchAll()
+
+        public virtual List<KPI> Fetch()
         {
             var sql = @"
                 SELECT 0 StatusId, COUNT(*) [RowCount] 
