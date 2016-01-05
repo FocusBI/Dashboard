@@ -3,7 +3,7 @@ Based on the work by Yorek(https://github.com/yorek/ssis-dashboard) this is a da
 
 An online working demo can be found at: http://focusbidashboard.azurewebsites.net/
 
-![dashboard](https://cloud.githubusercontent.com/assets/15170287/11864477/bf7024d6-a494-11e5-90b7-1857c4dfdf7f.png)
+![dashboard1](https://cloud.githubusercontent.com/assets/15170287/12120517/11dcd2e4-b3c9-11e5-9e8f-4921aef46229.png)
 
 ![dashboard drilldown](https://cloud.githubusercontent.com/assets/15170287/11864588/e4180028-a495-11e5-9d6d-a0a536ef619d.png)
 
