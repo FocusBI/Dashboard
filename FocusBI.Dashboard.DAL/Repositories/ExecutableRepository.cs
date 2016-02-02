@@ -9,7 +9,7 @@ namespace FoucsBI.Dashboard.DAL
          public virtual List<Executable> Fetch(int executionId)
         {
             var sql = @"
-                    SELECT e.executable_id	Id
+                    SELECT s.statistics_id	Id
 	                    ,e.executable_name	Name
 	                    ,e.package_name		PackageName
 	                    ,e.package_path		PackagePath
