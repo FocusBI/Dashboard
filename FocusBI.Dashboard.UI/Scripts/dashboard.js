@@ -193,6 +193,8 @@ function IntialiseExecutablesTable() {
         "order": [[0, "asc"]],
         rowId: 'Id',
         "columns": [
+            { "data": "Id" },
+            { "data": "PackageName" },
             { "data": "Name" },
             { "data": "StartTimeString" },
             { "data": "EndTimeString" },
