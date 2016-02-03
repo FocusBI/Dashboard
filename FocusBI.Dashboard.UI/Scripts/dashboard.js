@@ -6,6 +6,7 @@ var messagesWrapper;
 
 var detailsTable;
 var detailType;
+var detailId;
 var interval;
 
 function UpdateTables() {
@@ -23,6 +24,7 @@ function UpdateTables() {
         // this may timeout or error if connection string is not correct. So dont make second call if we fail
         if (UpdateKPI()) {
             UpdateProjectList();
+            UpdateDetailTable(detailId, detailType);
         }
     }
     catch (error) {
@@ -90,7 +92,8 @@ $(document).ready(function () {
                 },
                 "fnCreatedCell": function (td, data, rowData, iRow, iCol) {
                     $(td).addClass('drilldown-control');
-                    $(td).data("id", rowData.Id);
+                    //$(td).data("id", rowData.Id);
+                    $(td).attr("data-id", rowData.Id);
                     $(td).data("type", "detail");
                 },
                 "targets": 8
@@ -147,6 +150,7 @@ $(document).ready(function () {
         if (row.child.isShown() && detailType == type) {
             row.child.hide();
             detailType = null;
+            detailId = null;
         }
         else {
             // Open this row
@@ -180,6 +184,7 @@ $(document).ready(function () {
                 alert("No datatable HTML!");
             }
             detailType = type;
+            detailId = id;
         }
     });
 
@@ -287,3 +292,54 @@ function UpdateKPI() {
     }
 }
 
+function UpdateDetailTable(id, type) {
+    if (!id)
+    {
+        return;
+    }
+    var table = $('#executions').DataTable();
+    var element = $('td.drilldown-control[data-id=' + id + ']');
+    if (element) {
+        var tr = $(element).closest('tr');
+        var row = table.row(tr);
+        // This row is already open and we have clicked same column then close it
+        if (row.child.isShown() && detailType == type) {
+            row.child.hide();
+            detailType = null;
+        }
+        else {
+            // Open this row
+            //close all open rows and set data to null as we cant share/reuse datatable
+            $("#executions tbody tr").each(function (index) {
+                var row = table.row(this);
+                if (row.child()) {
+                    row.child().hide();
+                }
+            });
+            if (type == "detail") {
+                var html = GeExecutables(id);
+            }
+            else {
+                var html = GetMessages(id, type);
+            }
+            if (html) {
+                row.child(html).show();
+                if (type == "warning") {
+                    $("#messageHeader").addClass("bg-warning");
+                    $("#messageHeader").removeClass("bg-danger");
+                }
+                if (type == "error") {
+                    $("#messageHeader").addClass("bg-danger");
+                    $("#messageHeader").removeClass("bg-warning");
+                }
+                detailTable.columns.adjust().draw();
+            }
+            else {
+
+                alert("No datatable HTML!");
+            }
+            detailType = type;
+            detailId = id;
+        }
+    }
+}
