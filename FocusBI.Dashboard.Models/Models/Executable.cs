@@ -26,14 +26,14 @@ namespace FoucsBI.Dashboard.Models
         {
             get
             {
-                return this.StartTime.HasValue ? this.StartTime.Value.ToShortTimeString() : string.Empty;
+                return this.StartTime.HasValue ? this.StartTime.Value.ToLongTimeString() : string.Empty;
             }
         }
         public string EndTimeString
         {
             get
             {
-                return this.EndTime.HasValue ? this.EndTime.Value.ToShortTimeString() : string.Empty;
+                return this.EndTime.HasValue ? this.EndTime.Value.ToLongTimeString() : string.Empty;
             }
         }
     }
