@@ -143,51 +143,8 @@ $(document).ready(function () {
     $('#executions tbody').on('click', 'td.drilldown-control', function () {
         var id = ($(this).data("id"))
         var type = ($(this).data("type"))
-        var table = $('#executions').DataTable();
-        var tr = $(this).closest('tr');
-        var row = table.row(tr);
-        // This row is already open and we have clicked same column then close it
-        if (row.child.isShown() && detailType == type) {
-            row.child.hide();
-            detailType = null;
-            detailId = null;
-        }
-        else {
-            // Open this row
-            //close all open rows and set data to null as we cant share/reuse datatable
-            $("#executions tbody tr").each(function (index) {
-                var row = table.row(this);
-                if (row.child()) {
-                    row.child().hide();
-                }
-            });
-            if (type == "detail") {
-                var html = GeExecutables(id);
-            }
-            else {
-                var html = GetMessages(id, type);
-            }
-            if (html) {
-                row.child(html).show();
-                if (type == "warning") {
-                    $("#messageHeader").addClass("bg-warning");
-                    $("#messageHeader").removeClass("bg-danger");
-                }
-                if (type == "error") {
-                    $("#messageHeader").addClass("bg-danger");
-                    $("#messageHeader").removeClass("bg-warning");
-                }
-                detailTable.columns.adjust().draw();
-            }
-            else {
-
-                alert("No datatable HTML!");
-            }
-            detailType = type;
-            detailId = id;
-        }
+        UpdateDetailTable(id, type);
     });
-
     UpdateTables();
 });
 
