@@ -263,6 +263,7 @@ function UpdateDetailTable(id, type) {
         if (row.child.isShown() && detailType == type) {
             row.child.hide();
             detailType = null;
+            detailId = null;
         }
         else {
             // Open this row
