@@ -7946,7 +7946,7 @@ jQuery.extend({
 			// The jqXHR state
 			state = 0,
 			// Default abort message
-			strAbort = "canceled",
+			strAbort = "cancelled",
 			// Fake xhr
 			jqXHR = {
 				readyState: 0,

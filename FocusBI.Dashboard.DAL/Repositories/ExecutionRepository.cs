@@ -18,7 +18,7 @@ namespace FoucsBI.Dashboard.DAL
 	                ,CASE [status] 
 			                WHEN 1 THEN 'created' 
 			                WHEN 2 THEN 'Running' 
-			                WHEN 3 THEN 'canceled' 
+			                WHEN 3 THEN 'cancelled' 
 			                WHEN 4 THEN 'failed' 
 			                WHEN 5 THEN 'pending' 
 			                WHEN 6 THEN 'ended unexpectedly' 
