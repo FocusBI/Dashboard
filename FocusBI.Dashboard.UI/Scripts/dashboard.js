@@ -234,6 +234,7 @@ function UpdateProjectList(control) {
 }
 
 function UpdateKPI() {
+    //alert("Here");
     var data = App.GetApiData("/Home/GetKPI", null)
     if (data) {
         //reset all to 0

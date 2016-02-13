@@ -1,6 +1,8 @@
 ﻿var App = {
     // calls api method and returns json
     GetApiData: function (url, parameters) {
+        url = currentDomain + url;
+        //alert(url);
         //alert('Url: ' + url + ' parameters: ' + parameters);
         var json;
         $.ajax({

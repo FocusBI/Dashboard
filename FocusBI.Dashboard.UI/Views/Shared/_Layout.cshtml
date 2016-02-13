@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <title>SSIS Server Dashboard</title>
@@ -11,7 +10,13 @@
     @Scripts.Render("~/bundles/jqueryBlockUI")
     @Scripts.Render("~/bundles/dataTable")
     @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/application") 
+    @Scripts.Render("~/bundles/application")
+    @Scripts.Render("~/bundles/dashboard")
+
+    <!-- global for use in scripts -->
+    <script type="text/javascript">
+        var currentDomain = '@System.Web.HttpContext.Current.Request.Url'
+    </script>
 </head>
 <body>
     <div class="container-fluid">

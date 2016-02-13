@@ -32,14 +32,16 @@ namespace FoucsBI.Dashboard.UI
                         "~/Scripts/app.js"
                         ));
 
+            bundles.Add(new ScriptBundle("~/bundles/dashboard").Include(
+                        "~/Scripts/dashboard.js"
+                        ));
+
             bundles.Add(new StyleBundle("~/content/css").Include(
                       "~/content/bootstrap/bootstrap.css",
                       "~/content/bootstrap/bootstrap-theme.css",
                       "~/content/bootstrap/bootstrap-dialog.min.css",
                        "~/content/bootstrap/dataTables.bootstrap.min.css",
                     "~/content/site.css"));
-
-
         }
     }
 }
