@@ -33,7 +33,7 @@
 
 <div class="row">
     <div class="col-lg-12">
-        @foreach (string status in ("All,Executed,Running,Canceled,Pending,Stopping,Failed,Halted,Succeeded").Split(','))
+        @foreach (string status in ("All,Executed,Running,Cancelled,Pending,Stopping,Failed,Halted,Succeeded").Split(','))
         {
             <div class="col-lg-1">
                 <div class="statusPanel panel panel-@panelClass[counter]" data-status='@status'>

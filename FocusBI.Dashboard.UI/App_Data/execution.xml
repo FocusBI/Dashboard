@@ -160,7 +160,7 @@
     <PackageName>Master.dtsx</PackageName>
     <ProjectLsn>7</ProjectLsn>
     <StatusId>3</StatusId>
-    <Status>canceled</Status>
+    <Status>cancelled</Status>
     <StartTime>2015-07-11T11:29:36.693</StartTime>
     <EndTime>2015-07-11T11:32:03.67</EndTime>
     <ElapsedTimeInMinutes>2</ElapsedTimeInMinutes>
@@ -258,7 +258,7 @@
     <PackageName>Ecom_Master.dtsx</PackageName>
     <ProjectLsn>7</ProjectLsn>
     <StatusId>3</StatusId>
-    <Status>canceled</Status>
+    <Status>cancelled</Status>
     <StartTime>2015-07-15T13:52:13.08</StartTime>
     <EndTime>2015-07-15T14:02:20.037</EndTime>
     <ElapsedTimeInMinutes>10</ElapsedTimeInMinutes>
