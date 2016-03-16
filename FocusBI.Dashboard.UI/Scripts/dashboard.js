@@ -87,12 +87,29 @@ $(document).ready(function () {
         ],
         "columnDefs": [
             {
+                /* "render": function (data, type, row) {
+                    return '<div class="statusPanel panel panel-warning>' + data + '</div>';
+                },
+               ,*/
+                "fnCreatedCell": function (td, data, rowData, iRow, iCol) {
+                    var className = 'info';
+                    if (data == "failed")
+                        className = 'danger';
+                    if (data == "halted")
+                        className = 'warning';
+                    if (data == "succeeded")
+                        className = '';
+                    if(className != '')
+                        $(td).addClass('text-' + className);
+                },
+                "targets": 3
+            },
+            {
                 "render": function (data, type, row) {
                     return '<a>' + data + '</a>';
                 },
                 "fnCreatedCell": function (td, data, rowData, iRow, iCol) {
                     $(td).addClass('drilldown-control');
-                    //$(td).data("id", rowData.Id);
                     $(td).attr("data-id", rowData.Id);
                     $(td).data("type", "detail");
                 },
@@ -251,8 +268,7 @@ function UpdateKPI() {
 }
 
 function UpdateDetailTable(id, type) {
-    if (!id)
-    {
+    if (!id) {
         return;
     }
     var table = $('#executions').DataTable();
